@@ -30,7 +30,7 @@ function App() {
             <img src="/pic.jpg" alt="batata" />
           </div>
           <div className={s["text-side"]}>
-            <h1>Olímpio</h1>
+            <h1>BATATAAAA</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consectetur harum quisquam quasi, sit provident earum repellendus,
