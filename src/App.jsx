@@ -4,7 +4,7 @@ import { useState } from "react";
 import cardImg1 from "/im1.webp";
 import cardImg2 from "/im2.png";
 import cardImg3 from "/im3.jpg";
-import Imgfundo from "/pic.jpg";
+// import Imgfundo from "/pic.jpg";
 
 // export function App() quando rota
 function App() {
@@ -41,19 +41,19 @@ function App() {
         </section>
         <section id="s2" className={s.s2}>
           <Card
-            imgSrc={"/im1.webp"}
+            imgSrc={cardImg1}
             alt={"a1"}
             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
             title={"Card 1"}
           />
           <Card
-            imgSrc={"/im2.png"}
+            imgSrc={cardImg2}
             alt={"a2"}
             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
             title={"Card 2"}
           />
           <Card
-            imgSrc={"/im3.jpg"}
+            imgSrc={cardImg3}
             alt={"a3"}
             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
             title={"Card 3"}
